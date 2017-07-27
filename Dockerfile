@@ -1,4 +1,4 @@
-FROM postgres:9.5
+FROM postgres:9.6
 
 RUN apt-get update -y && \
     apt-get install -y cron php5-cli && \
