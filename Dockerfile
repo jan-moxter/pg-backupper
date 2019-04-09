@@ -1,7 +1,7 @@
 FROM postgres:11
 
 RUN apt-get update -y && \
-    apt-get install -y cron php5-cli && \
+    apt-get install -y cron php7.0-cli && \
     apt-get clean -y && \
     mkdir /var/log/backupper/
 
